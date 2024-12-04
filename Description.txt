@@ -1,0 +1,10 @@
+Developing simple Pinescript strategy for Tradingview and convert it into NinjaScript for Ninjatrader 8.
+
+Use two free indicators: Trend Magic by KivancOzbillgic, and Supply Demand ZONE by Bitcoin Jesus.
+Want it on NQ chart, once Trend Magic changes colors Blue is uptrend, Red is downtrend, and Supply Demand ZONE changes candle color, yellow is downtrend, default is black for uptrend.
+So those both have to happen for a trade to take place.
+Blue Trend Magic, Supply Demand ZONE changes to black we will enter a Buy.
+Red Trend Magic, Supply Demand ZONE changes to yellow we will take a Sell.
+Want to be able to have a time setting on the strategy, start and stop time that can change.
+Also tick profit and loss
+For example, can set it to 30 tick take profit and 30 tick stop loss for now but want to be able to adjust
